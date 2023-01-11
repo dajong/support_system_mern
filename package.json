@@ -1,0 +1,31 @@
+{
+  "name": "support_system_mern",
+  "version": "1.0.0",
+  "description": "MERN stack practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dajong/support_system_mern.git"
+  },
+  "author": "dajong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dajong/support_system_mern/issues"
+  },
+  "homepage": "https://github.com/dajong/support_system_mern#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
